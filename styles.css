@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Alfa Slab One', serif;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+#main {
+    width: 100%;
+    height: 100vh;
+
+}
+
+#back {
+    width: 100%;
+    height: 100vh;
+
+}
+
+#back img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#top {
+    /* z-index: 1; */
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+
+
+}
+
+#workingarea {
+    position: relative;
+    width: 80%;
+    max-width: 1920px;
+    height: 100vh;
+    margin: 0 auto;
+}
+
+#nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 40px 0;
+}
+
+#nav img {
+    height: 70px;
+}
+
+#nleft,
+#nright {
+    display: flex;
+    gap: 60px;
+}
+
+
+
+
+#nav a {
+    pointer-events: all;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #fff;
+
+}
+
+#hero {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(0, -50%);
+    width: 100%;
+
+
+}
+
+
+#heroright {
+
+    width: 17%;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+}
+
+
+#heroright p {
+    text-align: right;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+
+
+#heroright #imagediv {
+    width: 100%;
+    height: 170px;
+    background-color: red;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    background-image: url(https://images.unsplash.com/photo-1621317911081-f123294e86c7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8Z2lybCUyMGFsb25lfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60);
+    background-size: cover;
+    background-position: center;
+}
+
+#heroright p:nth-child(3) {
+
+    margin-bottom: 100px;
+}
+
+
+
+#heroleft {
+    min-width: 50%;
+}
+
+#heroleft .elem h1 {
+    color: #fff;
+    font-weight: 100;
+    line-height: 1;
+    font-size: 4vw;
+    position: absolute;
+    top: 100%;
+    left: 0;
+
+}
+
+#heroleft .elem h1:nth-child(1) {
+    top: 0;
+}
+
+#heroleft .elem {
+    height: 4.3vw;
+
+    overflow: hidden;
+    position: relative;
+}
+
+#heroleft button {
+    pointer-events: all;
+    padding: 1vw 2vw;
+    font-size: 2vw;
+    margin-top: 2vw;
+
+}
